@@ -1,0 +1,33 @@
+.p-card {
+  .p-card-header,
+  .p-card-body {
+    @include styleclass("px-4 pt-4");
+  }
+
+  .p-card-body {
+    @include styleclass("py-0");
+  }
+}
+
+.p-paginator {
+  background: none;
+  border: none;
+}
+
+.p-dataview {
+  .p-dataview-header {
+    @include styleclass("p-0 mb-4 border-none");
+  }
+
+  .p-dataview-content {
+    background: none;
+  }
+}
+
+.p-dropdown {
+  width: inherit;
+}
+
+.p-button {
+  @include styleclass("line-height-2 gap-1");
+}

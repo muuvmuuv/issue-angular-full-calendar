@@ -1,0 +1,4 @@
+- pnpm install
+- pnpm ng build
+- pnpm serve --single dist
+- http://localhost:3000/calendar
